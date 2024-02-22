@@ -76,7 +76,7 @@ Essyez les opérateurs suivants :
 + - * / // % ** ^
 ```
 
-Parvez-vous à comprendre ce que fait chacun de ces opérateurs ?
+Parvenez-vous à comprendre ce que fait chacun de ces opérateurs ?
 
 Essayez un calcul plus compliqué avec des parenthèses, des opérateurs et même des variables ? Par exemple:
 
