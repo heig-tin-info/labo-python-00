@@ -114,7 +114,7 @@ sqrt(2)
 u = sin(2*pi/4)
 ```
 
-Remarquez que nous avons défini une variable `pi` avant d'importer toutes les fonctions du module `math`. Cela a pour effet de masquer la variable `pi` du module `math` par notre propre variable `pi`. Cela peut être dangereux et il est préférable de ne pas importer toutes les fonctions d'un module directement dans l'espace de nom principal sauf si vous savez ce que vous faites.
+Remarquez que nous avons défini une variable `pi` avant d'importer toutes les fonctions du module `math`. Cela a pour effet de masquer la variable `pi` de votre propre variable `pi`. Cela peut être dangereux et il est préférable de ne pas importer toutes les fonctions d'un module directement dans l'espace de nom principal sauf si vous savez ce que vous faites.
 
 Il existe en Python une variable particulière `_` qui contient le résultat de la dernière expression évaluée. Cela peut être très pratique pour éviter de stocker des résultats intermédiaires dans des variables. Par exemple :
 
@@ -130,8 +130,8 @@ Sous iPython, chaque expression est numérotée. Vous pouvez vous référer à u
 Par exemple essayez de récupérer l'entrée ou la sortie d'une cellule, par exemple la cellule 42 si vous l'avez déjà évaluée.
 
 ```python
-In [84]: _84
-In [85]: print(_i84)
+In [84]: _42
+In [85]: print(_i42)
 ```
 
 #### Typage dynamique
